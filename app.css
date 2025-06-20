@@ -30,6 +30,16 @@ body{
   background-color: var(--color-bg-secondary) !important;
 }
 
+/* smooth color change on hover */
+.navbar .nav-link {
+  transition: color 0.2s ease-in-out;
+}
+
+/* darken the link (move white toward gray) */
+.navbar .nav-link:hover {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
 
 /* Gradient circular headshot */
 .headshot-wrapper {
