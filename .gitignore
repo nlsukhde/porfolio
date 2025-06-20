@@ -1,1 +1,5 @@
-.history
+# Ignore VS Code settings
+.vscode/
+
+# Ignore local history (used by some extensions)
+.history/
