@@ -9,7 +9,7 @@
 body{
   background-color: var(--color-bg);
   color: var(--color-text)!important;
-  font-family: "Fira Code", monospace !important;
+  font-family: "Raleway", monospace !important;
 }
 
 .bi {
@@ -85,3 +85,29 @@ body{
   line-height: 1;
   vertical-align: middle;
 }
+
+
+#about-section{
+    background-color: var(--color-accent);
+   
+}
+
+.project-card img {
+  height: 180px;           /* fixed height so all cards line up */
+  object-fit: cover;       /* crops/zooms to fill the frame */
+}
+
+.project-langs {
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+

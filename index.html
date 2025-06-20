@@ -16,6 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
+
     <title>Nickolas Sukhdeo Portfolio</title>
 </head>
 
@@ -47,7 +48,8 @@
   </div>
 </nav>
 
-<section id="about-section" class="text-center container py-5">
+<section id="about-section" class="py-5" style="background-color: var(--color-accent);">
+  <div class="container text-center">
   <h2>Hey World, I'm Nickolas Sukhdeo!</h2>
 
   <div class="headshot-wrapper mx-auto my-4">
@@ -68,7 +70,96 @@
       <i class="bi bi-linkedin"></i>
     </a>
   </div>
+  </div>
 </section>
+
+
+<section id="projects-section" class="py-5" style="background-color: var(--color-bg);">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row g-4">
+      <!-- ─────────────────────────────────────────────────────────────
+           Project Card #1: Copy this entire <div class="col…"> block
+           and paste/modify for each new project
+      ───────────────────────────────────────────────────────────── -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card project-card h-100 border-0 shadow-sm">
+          <img src="Summarizer.png" class="card-img-top" alt="Project 1 screenshot">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">GPT-4 Article Summarizer</h5>
+            <p class="project-langs mb-2">
+              <strong>Languages:</strong> Python, Flask, MongoDB
+            </p>
+            <p class="card-text flex-grow-1">
+              This website utilizes RAPID API's Article Extractor and Summarizer to return summaries of webpages to the user. 
+              It tracks history of inputs which they can go back to and copy the links of.
+            </p>
+            <a href="https://github.com/yourusername/project-one" 
+               target="_blank" 
+               class="btn btn-sm btn-primary mt-2 align-self-start">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- ─────────────────────────────────────────────────────────────
+           End Project Card #1
+      ───────────────────────────────────────────────────────────── -->
+
+        <div class="col-sm-6 col-lg-4">
+        <div class="card project-card h-100 border-0 shadow-sm">
+          <img src="PorfolioPic.png" class="card-img-top" alt="Project 1 screenshot">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Project Two</h5>
+            <p class="project-langs mb-2">
+              <strong>Languages:</strong> Python, Flask, MongoDB
+            </p>
+            <p class="card-text flex-grow-1">
+              A short description of what the project does, its key features, and why it’s cool.
+            </p>
+            <a href="https://github.com/yourusername/project-one" 
+               target="_blank" 
+               class="btn btn-sm btn-primary mt-2 align-self-start">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─────────────────────────────────────────────────────────────
+           End Project Card #2
+      ───────────────────────────────────────────────────────────── -->
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="card project-card h-100 border-0 shadow-sm">
+          <img src="PorfolioPic.png" class="card-img-top" alt="Project 1 screenshot">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Project Two</h5>
+            <p class="project-langs mb-2">
+              <strong>Languages:</strong> Python, Flask, MongoDB
+            </p>
+            <p class="card-text flex-grow-1">
+              A short description of what the project does, its key features, and why it’s cool.
+            </p>
+            <a href="https://github.com/yourusername/project-one" 
+               target="_blank" 
+               class="btn btn-sm btn-primary mt-2 align-self-start">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- ─────────────────────────────────────────────────────────────
+           End Project Card #3
+      ───────────────────────────────────────────────────────────── -->
+
+    </div>
+  </div>
+</section>
+
+
+
+
 
 </body>
 </html>
