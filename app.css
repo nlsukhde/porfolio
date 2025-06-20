@@ -5,11 +5,14 @@
   --color-bg-secondary: #112D4E;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body{
   background-color: var(--color-bg);
   color: var(--color-text)!important;
-  font-family: "Raleway", monospace !important;
+  font-family: "FiraCode", monospace !important;
 }
 
 .bi {
@@ -19,7 +22,7 @@ body{
 }
 
 .navbar, .navbar-brand, .nav-link {
-  font-family: "Fira Code", monospace !important;
+  font-family: "Raleway", monospace !important;
   color: white !important;
 }
 
@@ -111,3 +114,71 @@ body{
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
+/* blinking cursor */
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  0%, 50%   { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}
+
+#projects-section{
+    font-family: "Raleway", monospace !important;
+}
+
+.skill-badge {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  width: 100px;              /* fixed width so they line up */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.skill-badge:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.skill-icon {
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+.skill-name {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+#contact-section {
+  color: var(--color-text);
+}
+
+#contact-form .form-control {
+  border-radius: 0.5rem;
+  box-shadow: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact-form .form-control:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 0.2rem rgba(219, 226, 239, 0.5);
+}
+
+#contact-form .btn-primary {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#contact-form .btn-primary:hover {
+  background-color: var(--color-text);
+  color: white;
+  transform: translateY(-2px);
+}
