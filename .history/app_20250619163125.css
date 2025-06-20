@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+
+.section1 {
+    background-color: #901E3E;
+    
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+  color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+nav  {
+    display: inline;
+}
+

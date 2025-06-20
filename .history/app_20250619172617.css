@@ -1,0 +1,24 @@
+:root {
+  --color-bg: #F9F7F7;
+  --color-accent: #DBE2EF;
+  --color-text: #3F72AF;
+  --color-bg-secondary: #112D4E;
+}
+
+
+body{
+  background-color: var(--color-bg);
+  color: var(--color-text)!important;
+  font-family: "Fira Code", monospace !important;
+}
+
+.navbar, .navbar-brand, .nav-link {
+  font-family: "Fira Code", monospace !important;
+  color: var(--color-text) !important;
+}
+
+.navbar {
+  background-color: var(--color-bg-secondary) !important;
+}
+
+

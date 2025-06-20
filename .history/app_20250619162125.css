@@ -1,0 +1,15 @@
+.section1 {
+    background-color: brown;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+

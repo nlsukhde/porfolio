@@ -1,0 +1,10 @@
+.section1 {
+    background-color: brown;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
